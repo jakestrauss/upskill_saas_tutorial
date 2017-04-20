@@ -17,18 +17,31 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
+ //Background gradients
 .navbar, .home-callout {
   background: #43C6AC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
  
+ //Typography stiles
  h1, h2, h3 {
    font-family: 'Ubuntu', sans-serif;
  }
 
+//Nav Styles
 .navbar {
   border: none;
+}
+
+//Homepage styles
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: #2F4F4F;
+  &:hover {
+    color: #2F4F4F;
+    opacity: .75;
+  }
+  
 }
 
 .home-callout {
