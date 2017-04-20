@@ -34,6 +34,11 @@
   border: none;
 }
 
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
 //Homepage styles
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: #2F4F4F;
