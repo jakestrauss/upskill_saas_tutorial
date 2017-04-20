@@ -39,16 +39,28 @@
   font-weight: 700;
 }
 
-//Homepage styles
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: #2F4F4F;
   &:hover {
     color: #2F4F4F;
     opacity: .75;
   }
-  
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2F4F4F;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid #2F4F4F;
+  &:hover, :focus {
+    border: 2px solid #2F4F4F;
+    background-color: #F8FFAE;
+  }
+}
+
+
+//Homepage styles
 .home-callout {
   color: #2F4F4F;
   margin-top: -20px;
